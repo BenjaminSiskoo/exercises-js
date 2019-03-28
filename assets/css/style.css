@@ -2,3 +2,10 @@ body{
 	background-color: black;
 	color: white;
 }
+
+ #clic 
+{
+	background-image: url("../img/cookie.png");
+	width: 300px;
+	height: 300px;
+	}
