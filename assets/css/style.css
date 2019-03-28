@@ -4,12 +4,49 @@ body{
 	height: 100%;
 	margin:auto;
 	padding:auto;
+}
 
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
  #clic 
 {
-	background-image: url("../img/cookie.png");
-	width: 300px;
-	height: 300px;
-	}
+	background: url("../img/cookie.png");
+	border:none;
+	display:flex;
+	width: 315px;
+	height: 295px;
+}
+
+#clicbuttonflex
+
+{
+	display: flex;
+	justify-content: center;
+
+}
+
+#multibuttonflex
+
+{
+	display: flex;
+	justify-content: center;
+	font-size:150px;
+	
+}
+
+#affichage
+{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size:100px;
+}
